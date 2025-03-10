@@ -1,0 +1,14 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.centertwo{
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px;
+}

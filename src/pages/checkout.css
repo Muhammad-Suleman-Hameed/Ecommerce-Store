@@ -1,0 +1,150 @@
+/* Container and spacing */
+/* Container and spacing */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.mt-5 {
+  margin-top: 3rem;
+}
+
+.py-4 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Row and column layout */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-md-8,
+.col-md-4 {
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.col-md-8 {
+  flex: 0 0 66.6667%;
+  max-width: 66.6667%;
+}
+
+.col-md-4 {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+}
+
+/* Form styles */
+.form-control {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+/* Order confirmation message */
+.order-confirmation-message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+}
+
+/* Continue shopping button */
+.continue-shopping-btn {
+  margin-top: 1rem;
+}
+
+/* Cart summary styles */
+#summary {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.list-group {
+  list-style: none;
+  padding: 0;
+}
+
+.list-group-item {
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #ddd;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge {
+  background-color: #6c757d;
+  color: #fff;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+}
+
+/* Custom control styling for checkbox */
+.custom-control {
+  display: flex;
+  align-items: center;
+}
+
+.custom-control-input {
+  margin-right: 0.5rem;
+}
+
+/* Payment options styling */
+.payment-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.payment-option {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.payment-option input {
+  margin-right: 0.5rem;
+}
+
+

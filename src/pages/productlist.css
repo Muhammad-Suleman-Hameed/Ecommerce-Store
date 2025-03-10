@@ -1,0 +1,126 @@
+/* Container for the header row (title + filters) */
+.products-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.products-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* Container for the filters */
+.filters-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Individual filter (dropdown) container */
+.filter {
+  display: flex;
+  align-items: center;
+}
+
+/* Label styling for filters */
+.filter-label {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-right: 8px;
+}
+
+/* Dropdown styling for filters */
+.filter-select {
+  padding: 5px 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+/* Existing product container and card styles */
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 20px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  height: 400px;
+  overflow: hidden;
+}
+
+.product-image-container {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+
+.product-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.product-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-category {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 5px 0;
+}
+
+.product-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 5px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.product-price {
+  font-size: 1rem;
+  color: #333;
+  margin: 5px 0;
+}
+
+.button-container {
+  margin-top: auto;
+}
+
+.add-to-cart-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.invisible{
+  font-style: none;
+}
